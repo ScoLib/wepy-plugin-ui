@@ -1,0 +1,47 @@
+{
+  "name": "wepy-plugin-ui",
+  "version": "1.0.1",
+  "description": "A wepy plugin for some weapp ui component",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScoLib/wepy-plugin-ui.git"
+  },
+  "keywords": [
+    "wepy",
+    "weapp",
+    "plugin",
+    "scolib"
+  ],
+  "author": "klgd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScoLib/wepy-plugin-ui/issues"
+  },
+  "homepage": "https://github.com/ScoLib/wepy-plugin-ui#readme",
+  "dependencies": {
+    "postcss-px2units": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-dir": "^0.4.0",
+    "deepmerge": "^2.1.1",
+    "eslint": "^5.3.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "upath": "^1.1.0",
+    "vant-weapp": "^0.5.11",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2",
+    "wux-weapp": "^3.5.0"
+  }
+}
